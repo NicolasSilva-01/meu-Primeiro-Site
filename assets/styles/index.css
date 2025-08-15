@@ -33,14 +33,14 @@ width: 80%;
 margin: 0 auto;
 padding: 40px;
 border-radius: 12px;
-margin-bottom: 40px;
+margin-bottom: 50px;
 }
 
 #titulo-sobre-mim {
     font-size: 40px;
     margin-bottom: 16px;
     border-bottom: 2px solid black;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .texto-meus-hobbies {
@@ -54,7 +54,7 @@ font-size: 30px;
     margin: 0 auto;
     padding: 40px;
     border-radius: 12px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 #titulo-meus-hobbies {
@@ -97,4 +97,16 @@ li:hover {
 #contato h3 {
     margin-bottom: 8px;
     font-size: 20px;
+}
+
+footer {
+  background-color: rgb(5, 5, 65);
+  color:antiquewhite;
+  text-align: center;
+  padding: 2rem;
+  width: 100%;
+}
+
+footer p {
+    font-size: 1rem;
 }
