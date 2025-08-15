@@ -1,0 +1,100 @@
+/* RESET DO CSS */
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 30vh;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: rgb(92, 18, 18);
+    color:rgb(255, 255, 255);
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    background-color: rgb(209, 202, 197);
+    padding: 48px 38px;
+}
+
+#sobre-mim {
+display: block;
+background-color: honeydew;
+width: 80%;
+margin: 0 auto;
+padding: 40px;
+border-radius: 12px;
+margin-bottom: 40px;
+}
+
+#titulo-sobre-mim {
+    font-size: 40px;
+    margin-bottom: 16px;
+    border-bottom: 2px solid black;
+    margin-bottom: 40px;
+}
+
+.texto-meus-hobbies {
+font-size: 30px;
+}
+
+#meus-hobbies {
+    display: block;
+    background-color: honeydew;
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+#titulo-meus-hobbies {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+li {
+    background-color: rgb(211, 209, 207);
+    padding: 8px;
+    border-left: 4px solid black;
+    border-radius: 6px;
+    font-size: 16px;
+    min-width: 250px;
+}
+
+li:hover {
+    background-color: rgba(223, 199, 183, 0.842);
+    transform: translateX(5px);
+    transition: all 0.3s ease;
+}
+
+#contato {
+  background-color: rgb(255, 255, 255);
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 40px;
+
+}
+
+#contato h3 {
+    margin-bottom: 8px;
+    font-size: 20px;
+}
